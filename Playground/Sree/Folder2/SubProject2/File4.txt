@@ -1,3 +1,6 @@
+ver 1.2
+
+
 Windows PowerShell
 Copyright (C) 2016 Microsoft Corporation. All rights reserved.
 
