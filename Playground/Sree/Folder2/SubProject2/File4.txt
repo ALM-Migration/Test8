@@ -1,0 +1,32 @@
+Windows PowerShell
+Copyright (C) 2016 Microsoft Corporation. All rights reserved.
+
+PS C:\Users\svc_alm_migration> Test-NetConnection magnalm-dev3.ptcmscloud.com -port 7001
+
+
+ComputerName     : magnalm-dev3.ptcmscloud.com
+RemoteAddress    : 54.172.123.146
+RemotePort       : 7001
+InterfaceAlias   : Ethernet0
+SourceAddress    : 10.75.48.190
+TcpTestSucceeded : True
+
+
+
+PS C:\Users\svc_alm_migration> Test-NetConnection magnalm-dev3.ptcmscloud.com -port 80
+WARNING: TCP connect to magnalm-dev3.ptcmscloud.com:80 failed
+WARNING: Ping to magnalm-dev3.ptcmscloud.com failed -- Status: TimedOut
+
+
+ComputerName           : magnalm-dev3.ptcmscloud.com
+RemoteAddress          : 54.172.123.146
+RemotePort             : 80
+InterfaceAlias         : Ethernet0
+SourceAddress          : 10.75.48.190
+PingSucceeded          : False
+PingReplyDetails (RTT) : 0 ms
+TcpTestSucceeded       : False
+
+
+
+PS C:\Users\svc_alm_migration>
